@@ -17,4 +17,11 @@ func SetupRoutes(r *gin.Engine, db *gorm.DB) {
 
     RegisterRoleRoutes(api, db)
     RegisterBatchRoutes(api, db)
+    RegisterPaymentRoutes(api, db)
+    RegisterInvestmentRoutes(api, db)
+    RegisterOfferRoutes(api, db)
+    RegisterPlanRoutes(api, db)
+    RegisterExpenseRoutes(api, db)
+    RegisterEnrollmentRoutes(api, db)
+    RegisterAttendanceRoutes(api, db)
 }
